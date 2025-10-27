@@ -44,23 +44,6 @@ document.querySelector("#index2").addEventListener("click",()=>{
         document.querySelector("#conteudo").innerHTML+= templates.sobre
 
 
-
-////////////////
-
-
-document.querySelector("#redirecionar").addEventListener("click",()=>{
-    resetnav()
-    
-    localStorage.setItem("index", true)
-
-    if (localStorage.getItem("index") == "true") {
-        document.querySelector("#conteudo").innerHTML= ""
-        document.querySelector("#index").classList.add("destacarlink")
-        document.querySelector("#conteudo").innerHTML+= templates.todolist
-        teste()
-    }
-
-})
     }
 })
 // botão de redirecionamento para o site principal
