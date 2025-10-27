@@ -19,9 +19,9 @@
 
 ## 🔭 Visão Geral
 
-    Este é um projeto de gerenciamento de tarefa.
-    Você pode colocar tarefas e seleciona-las quando feito. O site é um Single Page Application, pensado para favorecer pessoas com um internet não muito boa.
-    No site também foi muito utilizado o sistema de chache do navegador para salvar as tarefas do usuario.
+  Este é um projeto de gerenciamento de tarefa.
+  Você pode colocar tarefas e seleciona-las quando feito. O site é um Single Page Application, pensado para favorecer pessoas com um internet não muito boa.
+  No site também foi muito utilizado o sistema de chache do navegador para salvar as tarefas do usuario.
 
 ## 💻 Tecnologias
 
@@ -40,5 +40,6 @@
 
 
 ---
+
 
 Aproveite o projeto e fique à vontade para personalizar este README de acordo com as necessidades do seu repositório. Divirta-se codificando! 🎉😄
