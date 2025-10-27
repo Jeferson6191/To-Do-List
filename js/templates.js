@@ -1,7 +1,7 @@
 let templates = {
     todolist:`
     <div >
-        <div class="card text-center mb-3 cartao ">
+        <div class="card text-center mb-3 cartao mx-auto p-2   container-md">
             <div class="card-body ">
                 <h1 class="card-title">Tarefas</h1>
 
@@ -15,7 +15,7 @@ let templates = {
                 <button type="button" class="btn btn-primary btn-lg btn-danger" 
                 id="deletar" style="margin-block: 12px;">Deletar</button>
 
-                <ul class="list-group">
+                <ul class="list-group mx-auto p-2 text-break"">
                     
                 </ul>
             </div>
@@ -23,7 +23,7 @@ let templates = {
     </div>
 `,
     sobre:`
-        <div class="card w-50 my-5 mx-5 ">
+        <div class="card my-5 mx-5 ">
             <div class="card-body ">
                 <h2 class="card-title ">Gerenciador de Tarefas</h2>
                     <p class="card-text mt-3">Este é um site para um projeto de gerenciador de tarefas <br> No site foi bastante utilizado Local Storage e é desenvolvido com o método de <i> Single Page Application</i> (SPA)</p>

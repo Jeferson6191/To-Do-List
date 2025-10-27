@@ -1,4 +1,3 @@
-
 // troca de pagina e nav bar customizada
 
 localStorage.setItem("index", false)
@@ -29,7 +28,7 @@ document.querySelector("#index").addEventListener("click",()=>{
         document.querySelector("#conteudo").innerHTML= ""
         document.querySelector("#index").classList.add("destacarlink")
         document.querySelector("#conteudo").innerHTML+= templates.todolist
-        teste()
+        todolistf()
     }
 
 })
@@ -39,14 +38,18 @@ document.querySelector("#index2").addEventListener("click",()=>{
     localStorage.setItem("index2", true)
 
     if (localStorage.getItem("index2") == "true") {
+        
         document.querySelector("#conteudo").innerHTML= ""
         document.querySelector("#index2").classList.add("destacarlink")
         document.querySelector("#conteudo").innerHTML+= templates.sobre
-
-
+        paginainicialf()
     }
 })
 // botão de redirecionamento para o site principal
+
+function paginainicialf() {
+    
+
 document.querySelector("#redirecionar").addEventListener("click",()=>{
     resetnav()
     
@@ -56,16 +59,16 @@ document.querySelector("#redirecionar").addEventListener("click",()=>{
         document.querySelector("#conteudo").innerHTML= ""
         document.querySelector("#index").classList.add("destacarlink")
         document.querySelector("#conteudo").innerHTML+= templates.todolist
-        teste()
+        todolistf()
     }
 
 })
-
-
+}
+paginainicialf()
 
 // to do list abaixo
 
-function teste() {
+function todolistf() {
     
 
 
@@ -134,4 +137,4 @@ document.querySelector("#deletar").addEventListener("click", ()=>{
     document.querySelector(".list-group").innerHTML = ""
 })
 }
-teste()
+todolistf()
